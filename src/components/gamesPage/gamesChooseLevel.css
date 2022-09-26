@@ -1,0 +1,61 @@
+.main-game {
+  padding: 20px 10px;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.game__info {
+  max-width: 570px;
+  text-align: center;
+  font-size: 18px;
+  font-style: italic;
+}
+.game__lvl-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+.lvl-content__link {
+  width: 2.5rem;
+  min-width: 0;
+}
+.game__lvl-header {
+  font-size: 18px;
+  font-weight: 700;
+}
+.lvl-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  font-family: inherit;
+  font-size: 18px;
+  color: #27262a;
+  border-radius: 10px;
+  transition: 0.5s;
+  border: 2px solid #8359ba;
+}
+.lvl-btn:hover {
+  border: 2px solid #4b3683;
+  transform: scale(1.05);
+}
+.link_1 {
+  background-color: #e7d3ff;
+}
+.link_2 {
+  background-color: #cce0ff;
+}
+.link_3 {
+  background-color: #d3ffe4;
+}
+.link_4 {
+  background-color: #ffffce;
+}
+.link_5 {
+  background-color: #ffe1bb;
+}
+.link_6 {
+  background-color: #fddfe4;
+}

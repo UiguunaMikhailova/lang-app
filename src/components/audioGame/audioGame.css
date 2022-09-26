@@ -1,0 +1,120 @@
+.button-sm {
+    cursor: pointer;
+    color: #27262a;
+    background-color: #ffe175;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    margin: 5px auto;
+    font-size: 18px;
+    font-weight: 700;
+    width: 43px;
+}
+
+.button-light {
+    padding: 10px 15px;
+    background-color: #ffffff;
+    border: 2px solid #8359ba;
+    cursor: pointer;
+    min-width: 100px;
+}
+
+.button-light.incorrect {
+    border: 2px solid #fa4141;
+}
+
+.button-light.correct {
+    border: 2px solid #57fa41;
+}
+
+.button-light:hover {
+    border-color: #5e4998;
+    filter: drop-shadow(0 0 3px #605872);
+}
+
+.button-light:disabled {
+    color: #000000;
+}
+
+.button-sm:hover {
+    border: 1px solid #0f0343;
+}
+
+.audio-game__svg {
+    width: 110px;
+    height: 110px;
+}
+
+.audio-game__svg svg {
+    width: 100%;
+    height: 100%;
+}
+
+.audiocall {
+    width: 100%;
+    height: 100%;
+}
+.audio-game-container {
+    background-image: url('/assets/images/sprint_bg_1.png');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.audio-game {
+    margin: 250px auto 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+    background-color: #ffffffcc;
+    width: 700px;
+    height: 370px;
+    border-radius: 25px;
+}
+
+.audio-game__word {
+    height: 20px;
+}
+
+.audio-game__buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.audio-game__close {
+    position: absolute;
+    top: 100px;
+    right: 50px;
+    cursor: pointer;
+}
+
+.audio-game__close svg {
+    width: 20px;
+    height: 20px;
+}
+
+.audio-game__counter-wrapper {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff9;
+  border-radius: 50%;
+  top: 7rem;
+  left: 7rem;
+  width: 6rem;
+  height: 6rem;
+  z-index: 5;
+}
+
+.audio-game__counter {
+    font-size: 35px;
+}
